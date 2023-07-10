@@ -14,7 +14,7 @@ body {
     background:#fe0;
     justify-content: center;
     align-items: center;
-    width: 67%;
+    width: 50%;
     
 }
 .primero1{
@@ -65,12 +65,14 @@ font-weight:550;
     justify-content: center;
     height: 80%;
     background-color: transparent;
+    width: 80%
 } 
 .form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 100%;
+    width: 80%;
 }
 .lastinput {
     display: flex;
@@ -82,14 +84,20 @@ font-weight:550;
 }
 
 .form p {
+    font-size: 100%;
     background-color: yellow;
     color: black;
-    margin-left: 162px;
     text-align: center;
     border-radius: 15px;
-    width: 90px;
+    width: 42%;
     padding: 11px;
     font-weight: bold;
+
+}
+.contact {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 3%;
 }
 ::placeholder {
     color: #ccc;
@@ -112,4 +120,5 @@ font-weight:550;
     .form p{
         width: 42%;
     }
+    
 }
