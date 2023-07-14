@@ -1,124 +1,128 @@
-html {height: 100%;
-background-color: #fff;
-}
-
-body {
-    display: flex;
+html {
     height: 100%;
-}
-
-.primero { 
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    background:#fe0;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+    background-color: #fff;
+    }
     
-}
-.primero1{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    width: 67%
-}
-h1 {
-    margin: 0;
-    font-size: 45px;
-    width: 100%;
-}
-p {
-width: 90%;
-font-size: 3vh;
-font-weight:550;
-}
-
-.segundo {
-    display: flex;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-}
-
-.Segundo1 {
-    display: flex;
-    background-color: #000;
-    width: 80%;
-    height: 90%;
-    align-items: center;
-    justify-content: center;
-}
-
-.form input {
-    color: #ccc;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #d6cece;
-    padding-bottom: 8px ;
-    outline: 0px;
-}
-.Segundo1-2 {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    height: 80%;
-    background-color: transparent;
-    width: 80%
-} 
-.form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 100%;
-    width: 80%;
-}
-.lastinput {
-    display: flex;
-    flex-direction: column;
-}
-.lastinput label {
-    color: #ccc;
-    margin-bottom: 20px;
-}
-
-.form p {
-    font-size: 100%;
-    background-color: yellow;
-    color: black;
-    text-align: center;
-    border-radius: 15px;
-    width: 42%;
-    padding: 11px;
-    font-weight: bold;
-
-}
-.contact {
-    display: flex;
-    justify-content: end;
-    margin-bottom: 3%;
-}
-::placeholder {
-    color: #ccc;
-}
-
-@media screen and (max-width:768px) {
     body {
+        display: flex;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .primero { 
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        background:#fe0;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+        
+    }
+    .primero1{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 67%
+    }
+    h1 {
+        margin: 0;
+        font-size: 4vw;
+        width: 100%;
+    }
+    p {
+    width: 90%;
+    font-size: 3vh;
+    font-weight:550;
+    }
+    
+    .segundo {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+    }
+    
+    .Segundo1 {
+        display: flex;
+        background-color: #000;
+        width: 80%;
+        height: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .form input {
+        color: #ccc;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #d6cece;
+        padding-bottom: 8px ;
+        outline: 0px;
+    }
+    .Segundo1-2 {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        height: 80%;
+        background-color: transparent;
+        width: 80%
+    } 
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        width: 80%;
+    }
+    .lastinput {
         display: flex;
         flex-direction: column;
     }
-    .primero {
-        width: 100%;
-        height: 100%;
-    }
-    .segundo 
-    {
-        width: 100%;
-        height: 100%;
-    }
-    .form p{
-        width: 42%;
+    .lastinput label {
+        color: #ccc;
+        margin-bottom: 20px;
     }
     
-}
+    .form p {
+        font-size: 100%;
+        background-color: yellow;
+        color: black;
+        text-align: center;
+        border-radius: 15px;
+        width: 42%;
+        padding: 11px;
+        font-weight: bold;
+    
+    }
+    .contact {
+        display: flex;
+        justify-content: end;
+        margin-bottom: 3%;
+    }
+    ::placeholder {
+        color: #ccc;
+    }
+    
+    @media screen and (max-width:768px) {
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        .primero {
+            width: 100%;
+            height: 100%;
+        }
+        .segundo 
+        {
+            width: 100%;
+            height: 100%;
+        }
+        .form p{
+            width: 42%;
+        }
+        
+    }
