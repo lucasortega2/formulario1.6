@@ -1,10 +1,14 @@
-html {height: 100%;
+html {
+    height: 100%;
     background-color: #fff;
+
     }
     
     body {
         display: flex;
         height: 100%;
+        margin: 0;
+        padding: 0;
     }
     
     .primero { 
@@ -15,6 +19,7 @@ html {height: 100%;
         justify-content: center;
         align-items: center;
         width: 50%;
+        height: 100%;
         
     }
     .primero1{
@@ -26,7 +31,7 @@ html {height: 100%;
     }
     h1 {
         margin: 0;
-        font-size: 45px;
+        font-size: 4vw;
         width: 100%;
     }
     p {
