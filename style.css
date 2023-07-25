@@ -121,6 +121,9 @@ html {
         .primero1 {
         width: 75%;
         }
+        .primero1 p {
+            font-size: 2vh;
+        }
         h1 {
             width: 100%;
             font-size: 4vh;
@@ -144,15 +147,15 @@ html {
         }
         .segundo p{
             width: 50%;
-            font-size: 2vh;
+            font-size: 1.5vh;
         }
         .form input {
             font-size: 60%;
             padding-top: 2vh;
-            font-size:2vh ;
+            font-size:1.5vh ;
         }
         .lastinput label {
-            font-size: 2vh;
+            font-size: 1.5vh;
             padding-top: 2vh;
             margin: 0;
     }
@@ -160,7 +163,7 @@ html {
         padding: 0;
     }
     .contact p {
-        font-size: 2vh;
+        font-size: 1.5vh;
         font-weight:bolder ;
     }
     }
